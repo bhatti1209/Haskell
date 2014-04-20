@@ -10,3 +10,7 @@ gettail = tail collection
 take2 = take 3 collection
 
 myList = [a | a <- [1..10], mod (a^2) 2 == 0]
+
+lucky x = if x == 7
+			then "Lucky 7"
+			else "You Loose, Roll Again."
