@@ -9,6 +9,7 @@ myListOf xs = [a | a <- xs, mod (a^2) 2 == 0]
 
 lucky x = if x == 7
 			then "Lucky 7"
+<<<<<<< HEAD
 			else "You Loose, Roll Again"
 
 luckyPatt :: (Integral a) => a -> String
@@ -40,3 +41,9 @@ initials1 firstname lastname = [f] ++ ". " ++ [l] ++ "."
 
 initials2 (f:_) (l:_) = [f] ++ ". " ++ [l] ++ "."  
 
+=======
+			else "You Loose, Roll Again."
+
+lucky2 7 = "You Win - Lucky 7 !!"
+lucky2 x = "Better Luck Next Time"
+>>>>>>> f0ffda29eb3d16e8ab5df113afa678d57ab203f1
