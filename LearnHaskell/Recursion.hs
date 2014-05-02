@@ -36,3 +36,10 @@ replicate1 n x = (first1 (repeat3 x)) : replicate1 (n-1) x
 	where 
 		repeat3 x = x : repeat3 x
 		first1 (a:as) = a
+
+replicate2 n x = take n (repeat x)
+
+zip1 :: [a] -> [b] -> [(a,b)]
+zip1 [] _ = []
+zip1 _ [] = []
+zip1 (a:as) (b:bs) = (a,b): zip1 as bs
