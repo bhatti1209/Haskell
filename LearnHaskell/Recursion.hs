@@ -21,3 +21,18 @@ take2 n _
 	| n <= 0 = []
 take2 _ [] = []
 take2 n (x:xs) = x : take2 (n-1) xs
+
+reverse1 :: [a] -> [a]
+reverse1 [] = []
+reverse1 (x:xs) = reverse1 xs ++ [x]
+
+repeat1 :: a -> [a]
+repeat1 x = [x] ++ repeat1 x
+repeat2 x = x : repeat2 x
+
+replicate1 n _
+	| n == 0 = []
+replicate1 n x = (first1 (repeat3 x)) : replicate1 (n-1) x
+	where 
+		repeat3 x = x : repeat3 x
+		first1 (a:as) = a
