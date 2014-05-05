@@ -43,3 +43,15 @@ zip1 :: [a] -> [b] -> [(a,b)]
 zip1 [] _ = []
 zip1 _ [] = []
 zip1 (a:as) (b:bs) = (a,b): zip1 as bs
+
+elem1 :: Eq a => a -> [a] -> Bool
+elem1 _ [] = False
+elem1 a [b]
+	| a == b = True
+	|otherwise = False
+elem1 a (b:bs) = elem1 a [b] || elem1 a bs
+
+elem2 a [] = False
+elem2 a (x:xs)
+	| a == x = True
+	| otherwise = elem2 a xs
