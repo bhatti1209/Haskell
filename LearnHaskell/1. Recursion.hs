@@ -55,3 +55,9 @@ elem2 a [] = False
 elem2 a (x:xs)
 	| a == x = True
 	| otherwise = elem2 a xs
+
+quicksort [] = []
+quicksort (x:xs) = smallerList ++ [x] ++ biggerList
+	where
+		smallerList = quicksort [a | a <- xs, a <=x]
+		biggerList = quicksort [a | a <- xs, a > x]
