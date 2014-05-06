@@ -12,3 +12,9 @@ filter1 p (x:xs)
 
 -- This is same as the filter function, this is to show it can be done using predicates also
 filter2 p xs = [x | x <- xs, p x == True]
+
+quicksortfilter [] = []
+quicksortfilter (x:xs) = smallerList ++ [x] ++ biggerList
+	where
+		smallerList = quicksortfilter (filter (<x) xs)
+		biggerList = quicksortfilter (filter (>x) xs)
