@@ -19,4 +19,4 @@ flip1 f a b = f b a
 
 flip2 f = g
 	where
-		g x y = f y x
+		g x y = f y
