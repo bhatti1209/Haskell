@@ -51,9 +51,9 @@ chain x
 		evenNumber = (x `div` 2)
 		oddNumber = (x*3 + 1)
 
-collatzSequenceRangeLength n = [length (chain x) | x <- [1..n]] -- somewhat like "map chain [1..100]"
-collatzSequenceLengthMoreThanTill100 n = length (filter (>n) (collatzSequenceRangeLength 100))
-
+repeatChainFor n = [chain x | x <- [1..n]] -- like "map chain [1..100]"
+collatzSequenceLengthMoreThanTill100 n = length (filter (>n) (map length (repeatChainFor 100)))
+ -- best (alternate) way
 numLongChain = length (filter isLong (map chain [1..100]))
 	where
 		isLong x = length x > 15
