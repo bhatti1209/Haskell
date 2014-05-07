@@ -53,7 +53,11 @@ chain x
 
 repeatChainFor n = [chain x | x <- [1..n]] -- like "map chain [1..100]"
 collatzSequenceLengthMoreThanTill100 n = length (filter (>n) (map length (repeatChainFor 100)))
+
  -- best (alternate) way
 numLongChain = length (filter isLong (map chain [1..100]))
 	where
 		isLong x = length x > 15
+
+listOfFuncs = map (*) [0..]
+multiplyByTwo = map (*2) [0..]
