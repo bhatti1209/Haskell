@@ -1,0 +1,800 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"odd",
+				"oddNumbers"
+			],
+			[
+				"even",
+				"evenNumbers"
+			],
+			[
+				"max",
+				"maximum"
+			],
+			[
+				"co",
+				"collatzSequenceRangeLength	Integral a => a -> [Int]"
+			],
+			[
+				"colla",
+				"collatzSequenceRangeLength	Integral a => a -> [Int]"
+			],
+			[
+				"Int",
+				"Integer"
+			],
+			[
+				"infi",
+				"infiniteOddMapSquares	None"
+			],
+			[
+				"take",
+				"takeWhile	(a -> Bool) -> [a] -> [a]"
+			],
+			[
+				"zipWi",
+				"zipWith1	(t -> t1 -> a) -> [t] -> [t1] -> [a]"
+			],
+			[
+				"Inter",
+				"Integral	class Integral a"
+			],
+			[
+				"filt",
+				"filter1"
+			],
+			[
+				"zip",
+				"zipWith1"
+			],
+			[
+				"zipwi",
+				"zipWidth1"
+			],
+			[
+				"milt",
+				"multiplyTwoDigitsWithThree"
+			],
+			[
+				"replc",
+				"replicate2"
+			],
+			[
+				"replica",
+				"replicate2"
+			],
+			[
+				"rep",
+				"repeat1"
+			],
+			[
+				"replic",
+				"replicate1	(Eq a, Num a) => a -> a1 -> [a1]"
+			],
+			[
+				"repl",
+				"replicate1"
+			],
+			[
+				"rever",
+				"reverse1"
+			],
+			[
+				"inter",
+				"Integral	class Integral a"
+			],
+			[
+				"luck",
+				"luckyPatt"
+			],
+			[
+				"len",
+				"myLengthPattern"
+			],
+			[
+				"myl",
+				"myLengthPattern"
+			],
+			[
+				"my",
+				"myLengthPattern"
+			],
+			[
+				"main",
+				"mainCall"
+			],
+			[
+				"fun",
+				"func1"
+			],
+			[
+				"temp",
+				"tempClass"
+			],
+			[
+				"ho",
+				"hoistingExampleFunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "0. scratchpad.hs",
+			"settings":
+			{
+				"buffer_size": 915,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "1. Recursion.hs",
+			"settings":
+			{
+				"buffer_size": 1260,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2. HigherOrderFunctions.hs",
+			"settings":
+			{
+				"buffer_size": 435,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "3. Maps And Filters.hs",
+			"settings":
+			{
+				"buffer_size": 1903,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "4. Lambdas.hs",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"git comm",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git quic",
+				"Git: Quick Commit"
+			],
+			[
+				"git com",
+				"Git: Quick Commit"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git ",
+				"Git: Commit history"
+			],
+			[
+				"git ma",
+				"Git: Merge Branch"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git stats",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Set Syntax: C#"
+			],
+			[
+				"web",
+				"Web Inspector"
+			],
+			[
+				"we",
+				"Web Inspector"
+			],
+			[
+				"webn",
+				"Web Inspector"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"webins",
+				"Web Inspector"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"webs",
+				"Set Syntax: Web Inspector (Stack)"
+			],
+			[
+				"webin",
+				"Web Inspector"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"web ",
+				"Web Inspector"
+			],
+			[
+				"web ins",
+				"Web Inspector"
+			],
+			[
+				"we ",
+				"Web Inspector"
+			],
+			[
+				"web in",
+				"Web Inspector"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"web i",
+				"Web Inspector"
+			],
+			[
+				"webi ",
+				"Web Inspector"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"defa",
+				"Preferences: Settings - Default"
+			],
+			[
+				"packe",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"jshint",
+				"JSHint: Clear Annotations"
+			],
+			[
+				"jshi",
+				"JSHint: Clear Annotations"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"paca",
+				"Preferences: Browse Packages"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 230.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"//10.30.2.52/Currentbuild/ZFPReva/Web.config",
+		"/D/Programming/Git/Haskell/LearnHaskell/3. Maps And Filters.hs",
+		"/D/Programming/Git/Haskell/LearnHaskell/3.MapsAndFilters.hs",
+		"/D/Programming/Git/Haskell/LearnHaskell/3.Maps And Filters.hs",
+		"/D/Programming/Git/Haskell/LearnHaskell/2. HigherOrderFunctions.hs",
+		"/D/Programming/Git/Haskell/LearnHaskell/1. Recursion.hs",
+		"/D/Programming/Git/Haskell/LearnHaskell/0. scratchpad.hs",
+		"/D/Programming/Git/Haskell/LearnHaskell/Recursion.hs",
+		"/D/Programming/Git/Haskell/LearnHaskell/scratchpad.hs",
+		"/D/ViewModel.cs",
+		"/D/P4/Checkin/NGI/PRDS/UView-ZFP/INT/ZFP/src/ZFP/Views/Home/Viewer.cshtml",
+		"/C/inetpub/wwwroot/Dakota/web.config",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/D/Programming/Git/Haskell/LearnHaskell/scratchpad - Copy.hs",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/D/Programming/Git/Haskell/LearnHaskell/                 myLengthPa[Finished in 0.7s with exit code 1]ttern ",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/SublimeHaskell/Settings/SublimeHaskell.sublime-settings",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/User/SublimeHaskell.sublime-settings",
+		"/D/Programming/Git/Haskell/Chap 3/test.hs",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/D/Automation/packages/Selenium.WebDriver.ChromeDriver.2.9.0.1/content/README-ChromeDriver.txt",
+		"/D/P4/Automation Main/NGI/PRDS/UView-ZFP/INT/ZFP/Automation/CustomDictionary.xml",
+		"/D/Downloads/Studio Addons/Selenium/Other.txt",
+		"//10.30.2.52/Currentbuild/ZFPReva/Scripts/ZFP_Scripts/Knockout/Events/EventLayer.js",
+		"/D/P4/ZFP Model/NGI/PRDS/UView-ZFP/INT/ZFP/src/ZFP/Scripts/ZFP_Scripts/Knockout/Events/EventLayer.js",
+		"/D/Programming/Javascript/scratchpad.js",
+		"/D/Programming/Javascript/Test/test.js",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/User/Node.sublime-build",
+		"/D/Downloads/Sublime Text/Node_Build.txt",
+		"/D/P4/ZFP Model/NGI/PRDS/UView-ZFP/INT/ZFP/src/ZFP/Web.config",
+		"/D/Programming/Javascript/Test/index.html",
+		"/D/Programming/Javascript/TestWebInspector/View/test.html",
+		"/D/Programming/Javascript/TestWebInspector/Scripts/MyScripts/Test.js",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/Web Inspector 3/swi.sublime-settings",
+		"/D/Programming/Javascript/TestWebInspector/Scripts/MyScripts/WebInspector.sublime-project",
+		"/C/Users/bharats/AppData/Roaming/Sublime Text 2/Packages/Web Inspector/swi.sublime-settings",
+		"/D/Projects/GE/License_EA/license.dat",
+		"//10.30.2.52/Currentbuild/TemporaryBuild/ZFPRevaTemp/Web.config",
+		"/C/inetpub/wwwroot/ZFP/Web.config",
+		"/D/Citius/Interview/Program.cs",
+		"/D/ChromeServer.java",
+		"/C/inetpub/wwwroot/ZFP/Global.asax",
+		"/C/inetpub/wwwroot/ZFP/Hl7Host.config",
+		"//10.30.2.52/Currentbuild/ZFPLeaf/Web.config",
+		"//10.30.2.52/OlderBuild/ZFP.Reva/16. April_2014/ZFP_04072014_01/ZFP/Web.config",
+		"//10.30.2.52/Currentbuild/ZFPReva/DbConnections.config",
+		"//10.30.2.52/OlderBuild/ZFP.Reva/16. April_2014/ZFP_04072014_01/ZFP/DbConnections.config",
+		"//10.30.2.52/Currentbuild/ZFPReva/DakotaClient.config",
+		"//10.30.2.52/OlderBuild/ZFP.Reva/16. April_2014/ZFP_04072014_01/ZFP/DakotaClient.config",
+		"//10.30.2.52/OlderBuild/ZFP.Reva/16. April_2014/ZFP_04032014_01/ZFP/Web.config",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/Web.config",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/UserGroupWorklistMappingEA.xml",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/DakotaClient.config",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/DbConnections.config",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/Scripts/ZFP_Scripts/Caching/DownloadManager.js",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/Scripts/ZFP_Scripts/Knockout/Model/Series.js",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/Scripts/ZFP_Scripts/Knockout/Model/Viewport.js",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/Scripts/jscoverage-output/Knockout/Model/Viewport.js",
+		"/D/P4/Checkin/NGI/INT/Allegro/zfp1-i/ZFP/src/ZFP/Scripts/ZFP_Scripts/DrawOnViewport/DrawOnViewport.js",
+		"/D/Citius/Training/Smart Code/Javascript Coding Guidelines/coding_guidelines.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\P4\\Checkin\\NGI\\INT\\Allegro\\zfp1-i\\ZFP\\src\\ZFP\\Scripts\\ZFP_Scripts",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main",
+			"Main",
+			"main",
+			"Main",
+			"main",
+			"Main",
+			"evenNumbers",
+			"localhost",
+			"collatzSequenceRangeLength",
+			"collatzSequence",
+			"\n",
+			"a",
+			"zipWith1",
+			"\n",
+			"		",
+			"\n",
+			"		",
+			"\n",
+			"zipwidth",
+			"zipwidtj",
+			"imageOperation",
+			"system.web>",
+			"system.web",
+			"losslessCallback",
+			"setOverlayImageNumber",
+			"pasteImage",
+			"getVariables",
+			"removeRequestFromList",
+			"face",
+			"font",
+			"famil"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "0. scratchpad.hs",
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "1. Recursion.hs",
+					"settings":
+					{
+						"buffer_size": 1260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "2. HigherOrderFunctions.hs",
+					"settings":
+					{
+						"buffer_size": 435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "3. Maps And Filters.hs",
+					"settings":
+					{
+						"buffer_size": 1903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "4. Lambdas.hs",
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 184.0
+	},
+	"output.git":
+	{
+		"height": 106.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Programming/Git/Haskell/LearnHaskell/4. Lambdas.hs"
+			],
+			[
+				"mapping",
+				"UserGroupWorklistMappingEA.xml"
+			],
+			[
+				"web",
+				"Web.config"
+			],
+			[
+				"series.j",
+				"Scripts/ZFP_Scripts/Knockout/Model/Series.js"
+			],
+			[
+				"viewport",
+				"Scripts/ZFP_Scripts/Knockout/Model/Viewport.js"
+			],
+			[
+				"downoa",
+				"Scripts/ZFP_Scripts/Caching/DownloadManager.js"
+			],
+			[
+				"drawonviewprt",
+				"Scripts/ZFP_Scripts/DrawOnViewport/DrawOnViewport.js"
+			],
+			[
+				"download",
+				"Scripts/ZFP_Scripts/Caching/DownloadManager.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}

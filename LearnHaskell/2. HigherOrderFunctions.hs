@@ -1,4 +1,4 @@
-module Main where
+module HigherOrderFunctions where
 
 main = putStrLn "Learning Haskell - Higher Order Functions !!"
 

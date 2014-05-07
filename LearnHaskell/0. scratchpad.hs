@@ -1,4 +1,4 @@
-module Main where
+module ScratchPad where
 
 main = putStrLn "Learning Haskell - ScratchPad !!"
 

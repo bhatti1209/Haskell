@@ -1,4 +1,4 @@
-module Main where
+module MapsAndFilters where
 
 main = putStrLn "Learning Haskell - Maps And Filters !!"
 
