@@ -19,3 +19,11 @@ tupleToList a = map f a
 
 tupleToListLambda a = map (\(a,b) -> a + b) a
 
+sumByRecursion [] = 0
+sumByRecursion (n:ns) = n+ sumByRecursion ns
+
+sumByFoldUsingWhere xs = foldl f 0 xs
+	where
+		f s x = s + x
+
+sumByFoldLambda xs = foldl (\s x -> s + x) 0 xs
