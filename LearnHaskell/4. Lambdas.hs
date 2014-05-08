@@ -24,6 +24,10 @@ sumByRecursion (n:ns) = n+ sumByRecursion ns
 
 sumByFoldUsingWhere xs = foldl f 0 xs
 	where
-		f s x = s + x
+		f acc x = acc + x
 
-sumByFoldLambda xs = foldl (\s x -> s + x) 0 xs
+sumByFoldLambda xs = foldl (\acc x -> acc + x) 0 xs
+
+sumByFoldCurry = foldl (+) 0 -- (+) == (\acc x -> acc+ x)
+
+elemByFold e xs = foldl (\acc x -> if x == e then True else acc) False xs
