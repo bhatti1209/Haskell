@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sum",
+				"sumByFoldLambda"
+			],
+			[
+				"sum1",
+				"sumByFold1"
+			],
+			[
 				"odd",
 				"oddNumbers"
 			],
@@ -159,7 +167,15 @@
 			"file": "4. Lambdas.hs",
 			"settings":
 			{
-				"buffer_size": 446,
+				"buffer_size": 444,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "5. Folds.hs",
+			"settings":
+			{
+				"buffer_size": 390,
 				"line_ending": "Windows"
 			}
 		}
@@ -167,9 +183,17 @@
 	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"theme",
+				"SublimeREPL: Petite Chez Scheme"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
 			[
 				"git comm",
 				"Git: Quick Commit"
@@ -192,10 +216,6 @@
 			],
 			[
 				"git quic",
-				"Git: Quick Commit"
-			],
-			[
-				"git com",
 				"Git: Quick Commit"
 			],
 			[
@@ -416,6 +436,7 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/Git/Haskell/LearnHaskell/LearnHaskell.sublime-workspace",
 		"//10.30.2.52/Currentbuild/ZFPReva/Web.config",
 		"/D/Programming/Git/Haskell/LearnHaskell/3. Maps And Filters.hs",
 		"/D/Programming/Git/Haskell/LearnHaskell/3.MapsAndFilters.hs",
@@ -487,7 +508,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"D:\\P4\\Checkin\\NGI\\INT\\Allegro\\zfp1-i\\ZFP\\src\\ZFP\\Scripts\\ZFP_Scripts",
@@ -499,6 +520,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"largest",
+			"acc",
+			"s",
+			"fold1",
+			"sumByRecursion",
+			"sumByFold1",
 			"main",
 			"Main",
 			"main",
@@ -547,7 +574,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -589,8 +616,8 @@
 						"selection":
 						[
 							[
-								557,
-								557
+								1231,
+								1231
 							]
 						],
 						"settings":
@@ -599,7 +626,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -642,8 +669,8 @@
 						"selection":
 						[
 							[
-								21,
-								21
+								1903,
+								1903
 							]
 						],
 						"settings":
@@ -662,21 +689,47 @@
 					"file": "4. Lambdas.hs",
 					"settings":
 					{
-						"buffer_size": 446,
+						"buffer_size": 444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								446,
-								446
+								217,
+								217
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "5. Folds.hs",
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
