@@ -1,5 +1,4 @@
 module CyberDojo where
-
 main = putStrLn "Cyber dojo - 100 Doors Problem !!"
 
 -- Problem Statement: [FEC6CD]
@@ -11,16 +10,23 @@ main = putStrLn "Cyber dojo - 100 Doors Problem !!"
 --Question: What state are the doors in after the last
 --pass? Which are open, which are closed?
 
-n = 10
+n = 100
 doors = take n (repeat False)
 
-takeFromListBy 0 _ = []
-takeFromListBy _ [] = []
-takeFromListBy n xs
-	| length xs < (n-1) = []
-takeFromListBy n xs = element : takeFromListBy n (drop n xs)
-	where
-		element = head (drop (n-1) xs)
+ans :: Int -> [Bool] -> Int
+ans n xs = length (iteration n xs)
 
--- Better way to do the above
-takeFromList n xs = map fst ( [t | t <- (zip xs [1..]), (snd t) `mod` n == 0])
+iteration :: Int -> [Bool] -> [Bool]
+iteration n xs
+	| n > length xs = xs
+	| otherwise = filter (\v -> v) $ iteration (n+1) (toggleDoors n xs)
+
+toggleDoors :: (Integral b) => b -> [Bool] -> [Bool]
+toggleDoors n xs = map toggleTupple $ [t | t <- (zip xs [1..])]
+	where
+		toggleTupple t = if ((snd t) `mod` n == 0)
+				      then
+				      	not $ fst t
+				      else
+				      	fst t
+
