@@ -23,8 +23,10 @@ pascalTriangle r = previousLevel ++ ([1] ++ evalPascal (drop (sum [1..(r-1)]) pr
 		previousLevel = pascalTriangle (r-1)
 		evalPascal xs = sumPairs xs
 
-sumPairs :: [Int] -> [Int]
-sumPairs [] = []
-sumPairs (x:[]) = []
-sumPairs (x:y:[]) = (x + y):[]
-sumPairs (x:y:xs) = (sumPairs (x:y:[])) ++ (sumPairs (y:xs))
+sumPairs xs = map (\(x,y) -> x + y) $ zip (init xs) (tail xs)
+--or
+sumOfPairs :: [Int] -> [Int]
+sumOfPairs [] = []
+sumOfPairs (x:[]) = []
+sumOfPairs (x:y:[]) = (x + y):[]
+sumOfPairs (x:y:xs) = (sumOfPairs (x:y:[])) ++ (sumOfPairs (y:xs))
