@@ -14,4 +14,3 @@ sumByFoldLambda xs = foldl (\acc x -> acc + x) 0 xs
 sumByFoldCurry = foldl (+) 0 -- "(+) == (\acc x -> acc+ x)"
 
 elemByFold e xs = foldl (\acc x -> if x == e then True else acc) False xs
-
