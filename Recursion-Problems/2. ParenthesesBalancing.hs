@@ -7,7 +7,6 @@
 --	•	())(
 --The last example shows that it’s not enough to verify that a string contains the same number of opening and closing parentheses.
 
-
 balance :: [Char] -> Bool
 balance xs
 	| getCount xs == 0 = True
@@ -19,6 +18,18 @@ getCount xs = foldl (conditions) 0 xs
 			| x == '(' = (if acc >=0 then (acc + 1) else acc)
 			| x == ')' = (if acc==0 then -1 else (acc-1)) 
 			| otherwise = acc
+
+-- Ryan's version
+--balance xs = (getParity xs 0) == 0
+
+--getParity []     acc = acc
+--getParity (x:xs) acc
+--  | acc < 0   = acc
+--  | otherwise = getParity xs (acc + getCharWeight x)
+
+--getCharWeight '(' =  1
+--getCharWeight ')' = -1
+--getCharWeight  c  =  0
 
 
 -- Extra's
